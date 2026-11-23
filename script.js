@@ -10,7 +10,41 @@ const registros = [
     "comentario": "HORRIBLE estaba muerta. gran parte andando. he vuelto en bus",
     "lectura": "dificil",
     "visibilidad": null,
-    "id": 1
+    "id": 1,
+    "datosHoja": [
+      [
+        "FECHA",
+        "12 abril"
+      ],
+      [
+        "KM",
+        "5,53"
+      ],
+      [
+        "RITMO MEDIO",
+        "12:40/km"
+      ],
+      [
+        "RITMO PROMEDIO",
+        "12:40/km"
+      ],
+      [
+        "TIEMPO MOVIMIENTO",
+        "43:26:00"
+      ],
+      [
+        "TIEMPO TOTAL",
+        "57:24:00"
+      ],
+      [
+        "DESNIVEL",
+        "6 m"
+      ],
+      [
+        "ZONA",
+        "Barceloneta"
+      ]
+    ]
   },
   {
     "fecha": "2026-04-26",
@@ -20,37 +54,173 @@ const registros = [
     "comentario": "mejor de lo que me esperaba 😎",
     "lectura": "agradable",
     "visibilidad": null,
-    "id": 2
+    "id": 2,
+    "datosHoja": [
+      [
+        "FECHA",
+        "26 abril"
+      ],
+      [
+        "KM",
+        "6,76"
+      ],
+      [
+        "RITMO MEDIO",
+        "7:51/km"
+      ],
+      [
+        "RITMO PROMEDIO",
+        "8:7/km"
+      ],
+      [
+        "TIEMPO MOVIMIENTO",
+        "53:56:00"
+      ],
+      [
+        "TIEMPO TOTAL",
+        "1:16"
+      ],
+      [
+        "DESNIVEL",
+        "10 m"
+      ],
+      [
+        "ZONA",
+        "Bonanova"
+      ]
+    ]
   },
   {
     "fecha": "2026-04-28",
     "km": 9.03,
     "ritmo": "7:37",
     "kudos": 1,
-    "comentario": "tiempo total 1h33m. 20 minutos de pausa: beber agua, esperar semaforos у paradita técnica en la fib para hacer pipi",
-    "lectura": "sin_registro",
+    "comentario": "tiempo total 1h33m. 20 minutos de pausa: beber agua, esperar semaforos y paradita técnica en la fib para hacer pipi",
+    "lectura": "neutro",
     "visibilidad": null,
-    "id": 3
+    "id": 3,
+    "datosHoja": [
+      [
+        "FECHA",
+        "28 abril"
+      ],
+      [
+        "KM",
+        "9,03"
+      ],
+      [
+        "RITMO MEDIO",
+        "7:37/km"
+      ],
+      [
+        "RITMO PROMEDIO",
+        "10:29/km"
+      ],
+      [
+        "TIEMPO MOVIMIENTO",
+        "1:08:52"
+      ],
+      [
+        "TIEMPO TOTAL",
+        "1:34:45"
+      ],
+      [
+        "DESNIVEL",
+        "92 m"
+      ],
+      [
+        "ZONA",
+        "Bonanva"
+      ]
+    ]
   },
   {
     "fecha": "2026-05-29",
     "km": 7.01,
     "ritmo": "7:16",
     "kudos": 1,
-    "comentario": null,
-    "lectura": "sin_registro",
+    "comentario": "vuelta al running MUY DURA 🥵🥵🥵🥵🥵🥵 subida con ferros zz",
+    "lectura": "dificil",
     "visibilidad": null,
-    "id": 4
+    "id": 4,
+    "datosHoja": [
+      [
+        "FECHA",
+        "29 mayo"
+      ],
+      [
+        "KM",
+        "7,01"
+      ],
+      [
+        "RITMO MEDIO",
+        "7:16/km"
+      ],
+      [
+        "RITMO PROMEDIO",
+        "9:55/km"
+      ],
+      [
+        "TIEMPO MOVIMIENTO",
+        "50:56:00"
+      ],
+      [
+        "TIEMPO TOTAL",
+        "1:09:35"
+      ],
+      [
+        "DESNIVEL",
+        "25 m"
+      ],
+      [
+        "ZONA",
+        "Bonanova - Diagonal"
+      ]
+    ]
   },
   {
     "fecha": "2026-05-31",
     "km": 5.22,
     "ritmo": "6:44",
     "kudos": 0,
-    "comentario": null,
-    "lectura": "sin_registro",
+    "comentario": "MUCHÍSIMO CALOR 🥵🥵 ha sido horrible\nno hay momento donde no quisiera matarme JAJAJAJAJAJJAJA\npero buen entrenamiento",
+    "lectura": "mixto",
     "visibilidad": null,
-    "id": 5
+    "id": 5,
+    "datosHoja": [
+      [
+        "FECHA",
+        "31 mayo"
+      ],
+      [
+        "KM",
+        "5,22 ida"
+      ],
+      [
+        "RITMO MEDIO",
+        "6:44/km"
+      ],
+      [
+        "RITMO PROMEDIO",
+        "10:39/km"
+      ],
+      [
+        "TIEMPO MOVIMIENTO",
+        "35:09:00"
+      ],
+      [
+        "TIEMPO TOTAL",
+        "55:41:00"
+      ],
+      [
+        "DESNIVEL",
+        "16 m"
+      ],
+      [
+        "ZONA",
+        "Barceloneta"
+      ]
+    ]
   },
   {
     "fecha": "2026-05-31",
@@ -58,140 +228,620 @@ const registros = [
     "ritmo": "8:12",
     "kudos": 0,
     "tramo": "vuelta",
-    "comentario": null,
-    "lectura": "sin_registro",
+    "comentario": "DURA X 2\nhe subido en metro desde drassanes-vallcarca\nhe corrido hasta casa\nME CAGO X2 🥵🥵🥵🥵🥵",
+    "lectura": "dificil",
     "visibilidad": null,
-    "id": 6
+    "id": 6,
+    "datosHoja": [
+      [
+        "KM",
+        "3,53 vuelta"
+      ],
+      [
+        "RITMO MEDIO",
+        "8:12/km"
+      ],
+      [
+        "RITMO PROMEDIO",
+        "15:33/km"
+      ],
+      [
+        "TIEMPO MOVIMIENTO",
+        "29:00:00"
+      ],
+      [
+        "TIEMPO TOTAL",
+        "55:00:00"
+      ],
+      [
+        "DESNIVEL",
+        "35 m"
+      ],
+      [
+        "ZONA",
+        "Barceloneta"
+      ]
+    ]
   },
   {
     "fecha": "2026-06-05",
     "km": 6,
     "ritmo": "6:54",
     "kudos": 0,
-    "comentario": null,
-    "lectura": "sin_registro",
+    "comentario": "de chill\nhe parado bastante poco, por lo que contenta 👍🏼",
+    "lectura": "agradable",
     "visibilidad": null,
-    "id": 7
+    "id": 7,
+    "datosHoja": [
+      [
+        "FECHA",
+        "5 junio"
+      ],
+      [
+        "KM",
+        "6"
+      ],
+      [
+        "RITMO MEDIO",
+        "6:54/km"
+      ],
+      [
+        "RITMO PROMEDIO",
+        "8:24/km"
+      ],
+      [
+        "TIEMPO MOVIMIENTO",
+        "41:28:00"
+      ],
+      [
+        "TIEMPO TOTAL",
+        "50:30:00"
+      ],
+      [
+        "DESNIVEL",
+        "25 m"
+      ],
+      [
+        "ZONA",
+        "Bonanova"
+      ]
+    ]
   },
   {
     "fecha": "2026-06-10",
     "km": 6.3,
     "ritmo": "6:45",
     "kudos": 1,
-    "comentario": "me he encontrado un gatito por el camino 😋\nbuen ritmo\nparando lo necesario 🥵",
-    "lectura": "agradable",
+    "comentario": "una ruta de la puta mierda 🤣\nme he encontrado un gatito por el camino 😋",
+    "lectura": "neutro",
     "visibilidad": null,
-    "id": 8
+    "id": 8,
+    "datosHoja": [
+      [
+        "FECHA",
+        "10 junio"
+      ],
+      [
+        "KM",
+        "6,3"
+      ],
+      [
+        "RITMO MEDIO",
+        "6:45/km"
+      ],
+      [
+        "RITMO PROMEDIO",
+        "10:50/km"
+      ],
+      [
+        "TIEMPO MOVIMIENTO",
+        "42:32:00"
+      ],
+      [
+        "TIEMPO TOTAL",
+        "1:08:15"
+      ],
+      [
+        "DESNIVEL",
+        "90 m"
+      ],
+      [
+        "ZONA",
+        "Bonanova"
+      ]
+    ]
   },
   {
     "fecha": "2026-06-16",
     "km": 8.04,
     "ritmo": "6:42",
     "kudos": 1,
-    "comentario": null,
-    "lectura": "sin_registro",
+    "comentario": "buen ritmo\nparando lo necesario 🥵\n(estoy reventada me duele muchisimo la espalda ns de que)",
+    "lectura": "mixto",
     "visibilidad": null,
-    "id": 9
+    "id": 9,
+    "datosHoja": [
+      [
+        "FECHA",
+        "16 junio"
+      ],
+      [
+        "KM",
+        "8,04"
+      ],
+      [
+        "RITMO MEDIO",
+        "6:42/km"
+      ],
+      [
+        "RITMO PROMEDIO",
+        "8:16/km"
+      ],
+      [
+        "TIEMPO MOVIMIENTO",
+        "53:48:00"
+      ],
+      [
+        "TIEMPO TOTAL",
+        "1:06:28"
+      ],
+      [
+        "DESNIVEL",
+        "15 m"
+      ],
+      [
+        "ZONA",
+        "Bonanova - Diagonal"
+      ]
+    ]
   },
   {
     "fecha": "2026-06-20",
     "km": 6.26,
     "ritmo": "6:36",
     "kudos": 1,
-    "comentario": "dándole mucho al pico como siempre 🥴🌟🎀\nUNA PUTA MIERDA COMO UNA CASA 💩\nFATAL\nCALORRRO INFERNAL",
-    "lectura": "dificil",
+    "comentario": "running con elena 🙌🏼🙌🏼💗\ndándole mucho al pico como siempre 🥴🌟🎀",
+    "lectura": "neutro",
     "visibilidad": null,
-    "id": 10
+    "id": 10,
+    "datosHoja": [
+      [
+        "FECHA",
+        "20 junio"
+      ],
+      [
+        "KM",
+        "6,26"
+      ],
+      [
+        "RITMO MEDIO",
+        "6:36/km"
+      ],
+      [
+        "RITMO PROMEDIO",
+        "12:03/km"
+      ],
+      [
+        "TIEMPO MOVIMIENTO",
+        "41:20:00"
+      ],
+      [
+        "TIEMPO TOTAL",
+        "1:15:35"
+      ],
+      [
+        "DESNIVEL",
+        "8 m"
+      ],
+      [
+        "ZONA",
+        "Bonanova - Diagonal"
+      ]
+    ]
   },
   {
     "fecha": "2026-06-22",
     "km": 2.63,
     "ritmo": "6:19",
     "kudos": 0,
-    "comentario": null,
-    "lectura": "sin_registro",
+    "comentario": "UNA PUTA MIERDA COMO UNA CASA 💩\nFATAL\nCALORRRO INFERNAL\nODIO CORRER CON PANTALON CORTO",
+    "lectura": "dificil",
     "visibilidad": null,
-    "id": 11
+    "id": 11,
+    "datosHoja": [
+      [
+        "FECHA",
+        "22 junio"
+      ],
+      [
+        "KM",
+        "2,63"
+      ],
+      [
+        "RITMO MEDIO",
+        "6:19/km"
+      ],
+      [
+        "RITMO PROMEDIO",
+        "11:17/km"
+      ],
+      [
+        "TIEMPO MOVIMIENTO",
+        "16:38"
+      ],
+      [
+        "TIEMPO TOTAL",
+        "29:45:00"
+      ],
+      [
+        "DESNIVEL",
+        "12 m"
+      ],
+      [
+        "ZONA",
+        "Bonanova"
+      ]
+    ]
   },
   {
     "fecha": "2026-06-26",
     "km": 5.03,
     "ritmo": "6:44",
     "kudos": 1,
-    "comentario": null,
-    "lectura": "sin_registro",
+    "comentario": "putas amas in the morning 🏃🏻‍♀️🌟🙌🏼\ntoma ya\nrapidísimos\npim pam",
+    "lectura": "agradable",
     "visibilidad": null,
-    "id": 12
+    "id": 12,
+    "datosHoja": [
+      [
+        "FECHA",
+        "26 junio"
+      ],
+      [
+        "KM",
+        "5,03"
+      ],
+      [
+        "RITMO MEDIO",
+        "6:44/km"
+      ],
+      [
+        "RITMO PROMEDIO",
+        "8:03/km"
+      ],
+      [
+        "TIEMPO MOVIMIENTO",
+        "34:25:00"
+      ],
+      [
+        "TIEMPO TOTAL",
+        "40:50:00"
+      ],
+      [
+        "DESNIVEL",
+        "0 m"
+      ],
+      [
+        "ZONA",
+        "Paseo de Palamós"
+      ]
+    ]
   },
   {
     "fecha": "2026-06-29",
     "km": 8.1,
     "ritmo": "6:19",
     "kudos": 0,
-    "comentario": "voy a tener que pillarle el ritmo porque sino me muero 🫁🫀🥵\nuna bromita 🥲🤣\nhoy ha costado un poquito más",
-    "lectura": "dificil",
+    "comentario": "voy a tener que comprarme cosas cada día para ir a este ritmo 🙌🏼🎀\nropa nueva 🎀\nbambas nuevas 🎀\ny calcetines nuevos 🎀\n\niba a un ritmo de 6 poco que ni yo me lo creía\ndefinitivamente son las bambas nuevas 🌟🪽\nvoy a tener que pillarle el ritmo porque sino me muero 🫁🫀🥵",
+    "lectura": "mixto",
     "visibilidad": null,
-    "id": 13
+    "id": 13,
+    "datosHoja": [
+      [
+        "STRAVA",
+        "PEAK"
+      ],
+      [
+        "FECHA",
+        "29 junio"
+      ],
+      [
+        "KM",
+        "8,1"
+      ],
+      [
+        "RITMO MEDIO",
+        "6:19/km"
+      ],
+      [
+        "RITMO PROMEDIO",
+        "9:34/km"
+      ],
+      [
+        "TIEMPO MOVIMIENTO",
+        "51:11:00"
+      ],
+      [
+        "TIEMPO TOTAL",
+        "1:17:29"
+      ],
+      [
+        "DESNIVEL",
+        "22 m"
+      ],
+      [
+        "ZONA",
+        "Bonanova - Diagonal"
+      ]
+    ]
   },
   {
     "fecha": "2026-07-01",
     "km": 4.03,
     "ritmo": "6:19",
     "kudos": 0,
-    "comentario": null,
-    "lectura": "sin_registro",
+    "comentario": "una bromita 🥲🤣\nhoy ha costado un poquito más\ncenita de premio",
+    "lectura": "mixto",
     "visibilidad": null,
-    "id": 14
+    "id": 14,
+    "datosHoja": [
+      [
+        "FECHA",
+        "1 julio"
+      ],
+      [
+        "KM",
+        "4,03"
+      ],
+      [
+        "RITMO MEDIO",
+        "6:19/km"
+      ],
+      [
+        "RITMO PROMEDIO",
+        "8:24/km"
+      ],
+      [
+        "TIEMPO MOVIMIENTO",
+        "25:28:00"
+      ],
+      [
+        "TIEMPO TOTAL",
+        "33:53:00"
+      ],
+      [
+        "DESNIVEL",
+        "3 m"
+      ],
+      [
+        "ZONA",
+        "Mitre - Diagonal"
+      ]
+    ]
   },
   {
     "fecha": "2026-07-13",
     "km": 5.02,
     "ritmo": "6:30",
     "kudos": 1,
-    "comentario": "mucho viento en contra por eso 😪💔\nestar de viaje y salir de fiesta pasan factura 🆘\nmuy dura la vuelta al running 🥵\nMUCHISIMO CALOR estaba CHORREANDO BESTIA 😭\ntan duro que pensaba que me plantaba a los 4k",
-    "lectura": "dificil",
+    "comentario": "por el puerto de santa maría 💪🏼\ngood\nmucho viento en contra por eso 😪💔",
+    "lectura": "neutro",
     "visibilidad": null,
-    "id": 15
+    "id": 15,
+    "datosHoja": [
+      [
+        "FECHA",
+        "13 julio"
+      ],
+      [
+        "KM",
+        "5,02"
+      ],
+      [
+        "RITMO MEDIO",
+        "6:30/km"
+      ],
+      [
+        "RITMO PROMEDIO",
+        "9:33/km"
+      ],
+      [
+        "TIEMPO MOVIMIENTO",
+        "32:40:00"
+      ],
+      [
+        "TIEMPO TOTAL",
+        "48:03:00"
+      ],
+      [
+        "DESNIVEL",
+        "26 m"
+      ],
+      [
+        "ZONA",
+        "Puerto de Santa María"
+      ]
+    ]
   },
   {
     "fecha": "2026-07-20",
     "km": 5.6,
     "ritmo": "6:27",
     "kudos": 1,
-    "comentario": "no he llegado ni a la fuente de cervantes\nuna putita mierda 💩\nestaba reventada 🤣",
+    "comentario": "estar de viaje y salir de fiesta pasan factura 🆘\nmuy dura la vuelta al running 🥵\nMUCHISIMO CALOR estaba CHORREANDO BESTIA 😭\ntan duro que pensaba que me plantaba a los 4k\nno he llegado ni a la fuente de cervantes",
     "lectura": "dificil",
     "visibilidad": null,
-    "id": 16
+    "id": 16,
+    "datosHoja": [
+      [
+        "FECHA",
+        "20 julio"
+      ],
+      [
+        "KM",
+        "5,6"
+      ],
+      [
+        "RITMO MEDIO",
+        "6:27/km"
+      ],
+      [
+        "RITMO PROMEDIO",
+        "9:15/km"
+      ],
+      [
+        "TIEMPO MOVIMIENTO",
+        "36:11:00"
+      ],
+      [
+        "TIEMPO TOTAL",
+        "51:54:00"
+      ],
+      [
+        "DESNIVEL",
+        "37 m"
+      ],
+      [
+        "ZONA",
+        "Bonanova"
+      ]
+    ]
   },
   {
     "fecha": "2026-07-21",
     "km": 3.21,
     "ritmo": "6:30",
     "kudos": 0,
-    "comentario": null,
-    "lectura": "sin_registro",
+    "comentario": "una putita mierda 💩\nestaba reventada 🤣\nse me ha liado la cosa 🍻",
+    "lectura": "dificil",
     "visibilidad": null,
-    "id": 17
+    "id": 17,
+    "datosHoja": [
+      [
+        "FECHA",
+        "21 julio"
+      ],
+      [
+        "KM",
+        "3,21"
+      ],
+      [
+        "RITMO MEDIO",
+        "6:30/km"
+      ],
+      [
+        "RITMO PROMEDIO",
+        "9:25/km"
+      ],
+      [
+        "TIEMPO MOVIMIENTO",
+        "20:53"
+      ],
+      [
+        "TIEMPO TOTAL",
+        "30:15:00"
+      ],
+      [
+        "DESNIVEL",
+        "8 m"
+      ],
+      [
+        "ZONA",
+        "Bonanova - Via Augusta"
+      ]
+    ]
   },
   {
     "fecha": "2026-07-29",
     "km": 10.61,
     "ritmo": "6:36",
     "kudos": 0,
-    "comentario": null,
-    "lectura": "sin_registro",
+    "comentario": "PRIMEROS 10K 🌟🌟🌟🌟🌟\nSACADOS DE LA MANGA 💪🏼\nhace días que no corro y me estaba sintiendo fatal, no tenía auriculares, xou\nhe empezado a un ritmo muy bajo e he ido haciendo hasta el final\nLO CONSEGUIMOS 🤸🏼‍♀️🕺🏼🌟💗🥳🩷",
+    "lectura": "agradable",
     "visibilidad": null,
-    "id": 18
+    "id": 18,
+    "datosHoja": [
+      [
+        "STRAVA",
+        "PEAK"
+      ],
+      [
+        "FECHA",
+        "29 julio"
+      ],
+      [
+        "KM",
+        "10,61"
+      ],
+      [
+        "RITMO MEDIO",
+        "6:36/km"
+      ],
+      [
+        "RITMO PROMEDIO",
+        "7:58/km"
+      ],
+      [
+        "TIEMPO MOVIMIENTO",
+        "1 h 09:57"
+      ],
+      [
+        "TIEMPO TOTAL",
+        "1h 24:36"
+      ],
+      [
+        "DESNIVEL",
+        "18 m"
+      ],
+      [
+        "ZONA",
+        "Bonanova - Diagonal - PG"
+      ]
+    ]
   },
   {
     "fecha": "2026-08-04",
     "km": 1.23,
     "ritmo": "6:47",
     "kudos": 0,
-    "comentario": null,
-    "lectura": "sin_registro",
+    "comentario": "una mierdecilla por islandia 😭🇮🇸\nno había una buena ruta para correr\nsolo un senderito muy mono",
+    "lectura": "mixto",
     "visibilidad": null,
-    "id": 19
+    "id": 19,
+    "datosHoja": [
+      [
+        "FECHA",
+        "4 agosto"
+      ],
+      [
+        "KM",
+        "1,23"
+      ],
+      [
+        "RITMO MEDIO",
+        "6:47/km"
+      ],
+      [
+        "RITMO PROMEDIO",
+        "8:24/km"
+      ],
+      [
+        "TIEMPO MOVIMIENTO",
+        "8:23"
+      ],
+      [
+        "TIEMPO TOTAL",
+        "10:23"
+      ],
+      [
+        "DESNIVEL",
+        "57 m"
+      ],
+      [
+        "ZONA",
+        "Islandia"
+      ]
+    ]
   },
   {
     "fecha": "2026-08-09",
@@ -201,77 +851,349 @@ const registros = [
     "comentario": "horrible correr en agosto por bcn 💀💔 no podía con mi vida",
     "lectura": "dificil",
     "visibilidad": null,
-    "id": 20
+    "id": 20,
+    "datosHoja": [
+      [
+        "FECHA",
+        "9 agosto"
+      ],
+      [
+        "KM",
+        "5,14"
+      ],
+      [
+        "RITMO MEDIO",
+        "6:41/km"
+      ],
+      [
+        "RITMO PROMEDIO",
+        "10:44/km"
+      ],
+      [
+        "TIEMPO MOVIMIENTO",
+        "34:22:00"
+      ],
+      [
+        "TIEMPO TOTAL",
+        "55:17:00"
+      ],
+      [
+        "DESNIVEL",
+        "15 m"
+      ],
+      [
+        "ZONA",
+        "Bonanova"
+      ]
+    ]
   },
   {
     "fecha": "2026-08-13",
     "km": 5.08,
     "ritmo": "6:43",
     "kudos": 0,
-    "comentario": null,
-    "lectura": "sin_registro",
+    "comentario": "cabo verde nenas 😛🙈",
+    "lectura": "neutro",
     "visibilidad": null,
-    "id": 21
+    "id": 21,
+    "datosHoja": [
+      [
+        "FECHA",
+        "13 agosto"
+      ],
+      [
+        "KM",
+        "5,08"
+      ],
+      [
+        "RITMO MEDIO",
+        "6:43/km"
+      ],
+      [
+        "RITMO PROMEDIO",
+        "9:34/km"
+      ],
+      [
+        "TIEMPO MOVIMIENTO",
+        "34:10:00"
+      ],
+      [
+        "TIEMPO TOTAL",
+        "47:43:00"
+      ],
+      [
+        "DESNIVEL",
+        "3 m"
+      ],
+      [
+        "ZONA",
+        "Cabo Verde"
+      ]
+    ]
   },
   {
     "fecha": "2026-08-15",
     "km": 2.4,
     "ritmo": "7:26",
     "kudos": 1,
-    "comentario": null,
-    "lectura": "sin_registro",
+    "comentario": "mi daddy ha sido obligado a ir andando conmigo 🤣💗\nHORRIBLE MUCHISIMO CALOR\nUN FOKING DESIERTO\nno podía más 💀",
+    "lectura": "dificil",
     "visibilidad": null,
-    "id": 22
+    "id": 22,
+    "datosHoja": [
+      [
+        "FECHA",
+        "15 agosto"
+      ],
+      [
+        "KM",
+        "2,4"
+      ],
+      [
+        "RITMO MEDIO",
+        "7:26 /km"
+      ],
+      [
+        "RITMO PROMEDIO",
+        "18:29/km"
+      ],
+      [
+        "TIEMPO MOVIMIENTO",
+        "17:51"
+      ],
+      [
+        "TIEMPO TOTAL",
+        "36:40:00"
+      ],
+      [
+        "DESNIVEL",
+        "3 m"
+      ],
+      [
+        "ZONA",
+        "Cabo Verde"
+      ]
+    ]
   },
   {
     "fecha": "2026-08-29",
     "km": 4.2,
     "ritmo": "6:36",
     "kudos": 0,
-    "comentario": null,
-    "lectura": "sin_registro",
+    "comentario": "poco a poco 🤞🏼🍀🌟\ndespués de un mes de comilonas y sin correr prácticamente, volvemos al running 🙌🏼 🏃🏻‍♀️\nobjetivo: entrenar para una carrera 10k oficial 😛😛😛😛😛",
+    "lectura": "neutro",
     "visibilidad": null,
-    "id": 23
+    "id": 23,
+    "datosHoja": [
+      [
+        "FECHA",
+        "29 agosto"
+      ],
+      [
+        "KM",
+        "4,2"
+      ],
+      [
+        "RITMO MEDIO",
+        "6:36 /km"
+      ],
+      [
+        "RITMO PROMEDIO",
+        "8:43/km"
+      ],
+      [
+        "TIEMPO MOVIMIENTO",
+        "27:45:00"
+      ],
+      [
+        "TIEMPO TOTAL",
+        "36:40:00"
+      ],
+      [
+        "DESNIVEL",
+        "17 m"
+      ],
+      [
+        "ZONA",
+        "Bonanova"
+      ]
+    ]
   },
   {
     "fecha": "2026-08-31",
     "km": 6.04,
     "ritmo": "6:23",
     "kudos": 0,
-    "comentario": null,
-    "lectura": "sin_registro",
+    "comentario": "VAMOS 💪🏼\nse empieza a notar la temperatura más fresquita!!!\nsubidita andando para recuperar 😛 (2k)",
+    "lectura": "agradable",
     "visibilidad": null,
-    "id": 24
+    "id": 24,
+    "datosHoja": [
+      [
+        "FECHA",
+        "31 agosto"
+      ],
+      [
+        "KM",
+        "6,04"
+      ],
+      [
+        "RITMO MEDIO",
+        "6:23 /km"
+      ],
+      [
+        "RITMO PROMEDIO",
+        "9:02/km"
+      ],
+      [
+        "TIEMPO MOVIMIENTO",
+        "38:37:00"
+      ],
+      [
+        "TIEMPO TOTAL",
+        "54:35:00"
+      ],
+      [
+        "DESNIVEL",
+        "23 m"
+      ],
+      [
+        "ZONA",
+        "Bonanova - Diagonal"
+      ]
+    ]
   },
   {
     "fecha": "2026-09-02",
     "km": 4,
     "ritmo": "6:40",
     "kudos": 0,
-    "comentario": null,
-    "lectura": "sin_registro",
+    "comentario": "un poco dead",
+    "lectura": "dificil",
     "visibilidad": null,
-    "id": 25
+    "id": 25,
+    "datosHoja": [
+      [
+        "FECHA",
+        "2 septiembre"
+      ],
+      [
+        "KM",
+        "4 km"
+      ],
+      [
+        "RITMO MEDIO",
+        "6:40/km"
+      ],
+      [
+        "RITMO PROMEDIO",
+        "-"
+      ],
+      [
+        "TIEMPO MOVIMIENTO",
+        "30:00:00"
+      ],
+      [
+        "TIEMPO TOTAL",
+        "48:40:00"
+      ],
+      [
+        "DESNIVEL",
+        "-"
+      ],
+      [
+        "ZONA",
+        "Gym Cinta"
+      ]
+    ]
   },
   {
     "fecha": "2026-09-06",
     "km": 6.19,
     "ritmo": "6:37",
     "kudos": 0,
-    "comentario": null,
-    "lectura": "sin_registro",
+    "comentario": "CAGANDOME ENCIMA 💩 (literal)\nhoy he cambiado de ruta y he hecho inversa 🆒😎 aunque parándome bastante que tenía mucho calor!!!\nal final me estaba dando un apretón 💩😭🤣",
+    "lectura": "mixto",
     "visibilidad": null,
-    "id": 26
+    "id": 26,
+    "datosHoja": [
+      [
+        "FECHA",
+        "6 septiembre"
+      ],
+      [
+        "KM",
+        "6,19"
+      ],
+      [
+        "RITMO MEDIO",
+        "6:37/km"
+      ],
+      [
+        "RITMO PROMEDIO",
+        "10:51/km"
+      ],
+      [
+        "TIEMPO MOVIMIENTO",
+        "40:58:00"
+      ],
+      [
+        "TIEMPO TOTAL",
+        "1:07:17"
+      ],
+      [
+        "DESNIVEL",
+        "65 m"
+      ],
+      [
+        "ZONA",
+        "M Girona - Bonanova"
+      ]
+    ]
   },
   {
     "fecha": "2026-09-09",
     "km": 5,
     "ritmo": "6:29",
     "kudos": 1,
-    "comentario": null,
-    "lectura": "sin_registro",
+    "comentario": "1. 6.39/km\n2. 6:27/km\n3. 6:14/km\n4. 6.39/km\n5. 6:27/km",
+    "lectura": "neutro",
     "visibilidad": null,
-    "id": 27
+    "id": 27,
+    "datosHoja": [
+      [
+        "FECHA",
+        "9 septiembre"
+      ],
+      [
+        "KM",
+        "5"
+      ],
+      [
+        "RITMO MEDIO",
+        "6:29/km"
+      ],
+      [
+        "RITMO PROMEDIO",
+        "-"
+      ],
+      [
+        "TIEMPO MOVIMIENTO",
+        "-"
+      ],
+      [
+        "TIEMPO TOTAL",
+        "41:24:00"
+      ],
+      [
+        "DESNIVEL",
+        "0 m"
+      ],
+      [
+        "ZONA",
+        "Gym Cinta"
+      ]
+    ]
   },
   {
     "fecha": "2026-09-12",
@@ -281,87 +1203,397 @@ const registros = [
     "comentario": "de tranquis 😎 investigando a ver como funciona mi nuevo reloj",
     "lectura": "neutro",
     "visibilidad": null,
-    "id": 28
+    "id": 28,
+    "datosHoja": [
+      [
+        "FECHA",
+        "12 septiembre"
+      ],
+      [
+        "KM",
+        "5,05"
+      ],
+      [
+        "RITMO MEDIO",
+        "7:00 /km"
+      ],
+      [
+        "RITMO PROMEDIO",
+        "13:00/km"
+      ],
+      [
+        "TIEMPO MOVIMIENTO",
+        "35:23:00"
+      ],
+      [
+        "TIEMPO TOTAL",
+        "1:05:41"
+      ],
+      [
+        "DESNIVEL",
+        "17 m"
+      ],
+      [
+        "ZONA",
+        "L'Escala"
+      ]
+    ]
   },
   {
     "fecha": "2026-09-13",
     "km": 6.14,
     "ritmo": "7:00",
     "kudos": 0,
-    "comentario": null,
-    "lectura": "sin_registro",
+    "comentario": "con el daddy 😝💗🙌🏼🌟😋",
+    "lectura": "neutro",
     "visibilidad": null,
-    "id": 29
+    "id": 29,
+    "datosHoja": [
+      [
+        "FECHA",
+        "13 septiembre"
+      ],
+      [
+        "KM",
+        "6,14"
+      ],
+      [
+        "RITMO MEDIO",
+        "7:00/km"
+      ],
+      [
+        "RITMO PROMEDIO",
+        "10:24/km"
+      ],
+      [
+        "TIEMPO MOVIMIENTO",
+        "43:02:00"
+      ],
+      [
+        "TIEMPO TOTAL",
+        "1:03:55"
+      ],
+      [
+        "DESNIVEL",
+        "33 m"
+      ],
+      [
+        "ZONA",
+        "L'Escala"
+      ]
+    ]
   },
   {
     "fecha": "2026-09-15",
     "km": 6.64,
     "ritmo": "6:20",
     "kudos": 0,
-    "comentario": null,
-    "lectura": "sin_registro",
+    "comentario": "buenas sensaciones 🫰🫰🫰🫰😋😋😋😋\ncon ganas de empezar el training enseriooo!!!!",
+    "lectura": "agradable",
     "visibilidad": null,
-    "id": 30
+    "id": 30,
+    "datosHoja": [
+      [
+        "FECHA",
+        "15 septiembre"
+      ],
+      [
+        "KM",
+        "6,64"
+      ],
+      [
+        "RITMO MEDIO",
+        "6:20 /km"
+      ],
+      [
+        "RITMO PROMEDIO",
+        "8:37/km"
+      ],
+      [
+        "TIEMPO MOVIMIENTO",
+        "42:06:00"
+      ],
+      [
+        "TIEMPO TOTAL",
+        "57:16:00"
+      ],
+      [
+        "DESNIVEL",
+        "11 m"
+      ],
+      [
+        "ZONA",
+        "M girona - Diagonal"
+      ]
+    ]
   },
   {
     "fecha": "2026-09-17",
     "km": 5.31,
     "ritmo": "6:38",
     "kudos": 2,
-    "comentario": null,
-    "lectura": "sin_registro",
+    "comentario": "bien! solo que me ha empezado a doler la rodilla cuando arrancaba la carrera 😭",
+    "lectura": "dificil",
     "visibilidad": null,
-    "id": 31
+    "id": 31,
+    "datosHoja": [
+      [
+        "FECHA",
+        "17 semptiembre"
+      ],
+      [
+        "KM",
+        "5,31"
+      ],
+      [
+        "RITMO MEDIO",
+        "6:38/km"
+      ],
+      [
+        "RITMO PROMEDIO",
+        "9:04/km"
+      ],
+      [
+        "TIEMPO MOVIMIENTO",
+        "35:14:00"
+      ],
+      [
+        "TIEMPO TOTAL",
+        "48:10:00"
+      ],
+      [
+        "DESNIVEL",
+        "13 m"
+      ],
+      [
+        "ZONA",
+        "Barceloneta"
+      ]
+    ]
   },
   {
     "fecha": "2026-09-21",
     "km": 8.01,
     "ritmo": "6:01",
     "kudos": 2,
-    "comentario": null,
-    "lectura": "sin_registro",
+    "comentario": "una fiera 💨💨💨💨💨💨\nhoy me he visto MUY MUY BIEN!!! 💪🏼 VAMOS",
+    "lectura": "agradable",
     "visibilidad": null,
-    "id": 32
+    "id": 32,
+    "datosHoja": [
+      [
+        "STRAVA",
+        "PEAK"
+      ],
+      [
+        "FECHA",
+        "21 septiembre"
+      ],
+      [
+        "KM",
+        "8,01"
+      ],
+      [
+        "RITMO MEDIO",
+        "6:01/km"
+      ],
+      [
+        "RITMO PROMEDIO",
+        "7:58/km"
+      ],
+      [
+        "TIEMPO MOVIMIENTO",
+        "48:09:00"
+      ],
+      [
+        "TIEMPO TOTAL",
+        "1:03:52"
+      ],
+      [
+        "DESNIVEL",
+        "6 m"
+      ],
+      [
+        "ZONA",
+        "Bonanova - Diagonal"
+      ]
+    ]
   },
   {
     "fecha": "2026-09-23",
     "km": 7.08,
     "ritmo": "6:02",
     "kudos": 3,
-    "comentario": null,
-    "lectura": "sin_registro",
+    "comentario": "xexe bolt 💨💨💨💨\n(cañita inesperada de recompensa 😋😋😋😋😋)",
+    "lectura": "agradable",
     "visibilidad": null,
-    "id": 33
+    "id": 33,
+    "datosHoja": [
+      [
+        "FECHA",
+        "23 septiembre"
+      ],
+      [
+        "KM",
+        "7,08"
+      ],
+      [
+        "RITMO MEDIO",
+        "6:02/km"
+      ],
+      [
+        "RITMO PROMEDIO",
+        "7:50/km"
+      ],
+      [
+        "TIEMPO MOVIMIENTO",
+        "42:44:00"
+      ],
+      [
+        "TIEMPO TOTAL",
+        "55:29:00"
+      ],
+      [
+        "DESNIVEL",
+        "12 m"
+      ],
+      [
+        "ZONA",
+        "Mitre - Diagonal"
+      ]
+    ]
   },
   {
     "fecha": "2026-09-26",
     "km": 4.05,
     "ritmo": "6:30",
     "kudos": 1,
-    "comentario": null,
-    "lectura": "sin_registro",
+    "comentario": "que gozada pillar todo semáforos verdes!!!! 🟢🟢🟢🟢🟢🟢🟢",
+    "lectura": "agradable",
     "visibilidad": null,
-    "id": 34
+    "id": 34,
+    "datosHoja": [
+      [
+        "FECHA",
+        "26 septiembre"
+      ],
+      [
+        "KM",
+        "4,05"
+      ],
+      [
+        "RITMO MEDIO",
+        "6:30/km"
+      ],
+      [
+        "RITMO PROMEDIO",
+        "6:48/km"
+      ],
+      [
+        "TIEMPO MOVIMIENTO",
+        "26:20:00"
+      ],
+      [
+        "TIEMPO TOTAL",
+        "27:34:00"
+      ],
+      [
+        "DESNIVEL",
+        "16 m"
+      ],
+      [
+        "ZONA",
+        "Bonanova"
+      ]
+    ]
   },
   {
     "fecha": "2026-09-28",
     "km": 5.35,
     "ritmo": "6:18",
     "kudos": 1,
-    "comentario": null,
-    "lectura": "sin_registro",
+    "comentario": "una caca como una casa 🫰\n2,6 km por carretera (horrible)\ny luego todo de bajada (aún más terrible 🤣)",
+    "lectura": "dificil",
     "visibilidad": null,
-    "id": 35
+    "id": 35,
+    "datosHoja": [
+      [
+        "FECHA",
+        "28 septiembre"
+      ],
+      [
+        "KM",
+        "5,35"
+      ],
+      [
+        "RITMO MEDIO",
+        "6:18/km"
+      ],
+      [
+        "RITMO PROMEDIO",
+        "10:14/km"
+      ],
+      [
+        "TIEMPO MOVIMIENTO",
+        "33:44:00"
+      ],
+      [
+        "TIEMPO TOTAL",
+        "54:43:00"
+      ],
+      [
+        "DESNIVEL",
+        "4 m"
+      ],
+      [
+        "ZONA",
+        "Carretera - Via Augusta"
+      ]
+    ]
   },
   {
     "fecha": "2026-09-30",
     "km": 8.06,
     "ritmo": "6:07",
     "kudos": 4,
-    "comentario": null,
-    "lectura": "sin_registro",
+    "comentario": "actividad 50 😋😋😋😋🫰\nahora soy una short ponitail girl 🎀\nel km 7 a 8 ha sido CRIMINAL",
+    "lectura": "mixto",
     "visibilidad": null,
-    "id": 36
+    "id": 36,
+    "datosHoja": [
+      [
+        "FECHA",
+        "30 septiembre"
+      ],
+      [
+        "KM",
+        "8,06"
+      ],
+      [
+        "RITMO MEDIO",
+        "6:07/km"
+      ],
+      [
+        "RITMO PROMEDIO",
+        "7:47/km"
+      ],
+      [
+        "TIEMPO MOVIMIENTO",
+        "49:25:00"
+      ],
+      [
+        "TIEMPO TOTAL",
+        "1:02:51"
+      ],
+      [
+        "DESNIVEL",
+        "21 m"
+      ],
+      [
+        "ZONA",
+        "Bonanova - Diagonal"
+      ]
+    ]
   },
   {
     "fecha": "2026-10-02",
@@ -371,57 +1603,273 @@ const registros = [
     "comentario": "RE MAL",
     "lectura": "dificil",
     "visibilidad": null,
-    "id": 37
+    "id": 37,
+    "datosHoja": [
+      [
+        "FECHA",
+        "2 octubre"
+      ],
+      [
+        "KM",
+        "1,8"
+      ],
+      [
+        "RITMO MEDIO",
+        "6:18/km"
+      ],
+      [
+        "RITMO PROMEDIO",
+        "8:27/km"
+      ],
+      [
+        "TIEMPO MOVIMIENTO",
+        "11:22"
+      ],
+      [
+        "TIEMPO TOTAL",
+        "15:15"
+      ],
+      [
+        "DESNIVEL",
+        "0 m"
+      ],
+      [
+        "ZONA",
+        "Bonanova - Anglí"
+      ]
+    ]
   },
   {
     "fecha": "2026-10-06",
     "km": 6.03,
     "ritmo": "5:53",
     "kudos": 2,
-    "comentario": null,
-    "lectura": "sin_registro",
+    "comentario": "rápido porque me estaba cagando 🤣🤣🤣💪🏼",
+    "lectura": "neutro",
     "visibilidad": null,
-    "id": 38
+    "id": 38,
+    "datosHoja": [
+      [
+        "STRAVA",
+        "PEAK"
+      ],
+      [
+        "FECHA",
+        "6 octubre"
+      ],
+      [
+        "KM",
+        "6,03"
+      ],
+      [
+        "RITMO MEDIO",
+        "5:53/km"
+      ],
+      [
+        "RITMO PROMEDIO",
+        "7:28/km"
+      ],
+      [
+        "TIEMPO MOVIMIENTO",
+        "35:29:00"
+      ],
+      [
+        "TIEMPO TOTAL",
+        "45:02:00"
+      ],
+      [
+        "DESNIVEL",
+        "0 m"
+      ],
+      [
+        "ZONA",
+        "Mitre - Diagonal"
+      ]
+    ]
   },
   {
     "fecha": "2026-10-08",
     "km": 3.11,
     "ritmo": "6:09",
     "kudos": 2,
-    "comentario": null,
-    "lectura": "sin_registro",
+    "comentario": "me he tenido que plantar\nmi rodilla chilla HELP!!!! 🩼",
+    "lectura": "dificil",
     "visibilidad": null,
-    "id": 39
+    "id": 39,
+    "datosHoja": [
+      [
+        "FECHA",
+        "8 octubre"
+      ],
+      [
+        "KM",
+        "3,11"
+      ],
+      [
+        "RITMO MEDIO",
+        "6:09/km"
+      ],
+      [
+        "RITMO PROMEDIO",
+        "8:21/km"
+      ],
+      [
+        "TIEMPO MOVIMIENTO",
+        "19:09"
+      ],
+      [
+        "TIEMPO TOTAL",
+        "26:01:00"
+      ],
+      [
+        "DESNIVEL",
+        "14 m"
+      ],
+      [
+        "ZONA",
+        "Bonanova"
+      ]
+    ]
   },
   {
     "fecha": "2026-10-11",
     "km": 10.03,
     "ritmo": "6:35",
     "kudos": 6,
-    "comentario": null,
-    "lectura": "sin_registro",
+    "comentario": "xen nonstop 💨\n(reduro +++ mil kilos del chalequito con agua) no he parado ni un segundo!!! 💪🏼💪🏼💪🏼",
+    "lectura": "mixto",
     "visibilidad": null,
-    "id": 40
+    "id": 40,
+    "datosHoja": [
+      [
+        "STRAVA",
+        "PEAK"
+      ],
+      [
+        "FECHA",
+        "11 octubre"
+      ],
+      [
+        "KM",
+        "10,03"
+      ],
+      [
+        "RITMO MEDIO",
+        "6:35/km"
+      ],
+      [
+        "RITMO PROMEDIO",
+        "6:35/km"
+      ],
+      [
+        "TIEMPO MOVIMIENTO",
+        "1 h 06:00"
+      ],
+      [
+        "TIEMPO TOTAL",
+        "1 h 06:00"
+      ],
+      [
+        "DESNIVEL",
+        "19 m"
+      ],
+      [
+        "ZONA",
+        "Barceloneta"
+      ]
+    ]
   },
   {
     "fecha": "2026-10-13",
     "km": 5.17,
     "ritmo": "5:51",
     "kudos": 3,
-    "comentario": null,
-    "lectura": "sin_registro",
+    "comentario": "a ritmo 💪🏼",
+    "lectura": "neutro",
     "visibilidad": null,
-    "id": 41
+    "id": 41,
+    "datosHoja": [
+      [
+        "STRAVA",
+        "PEAK"
+      ],
+      [
+        "FECHA",
+        "13 octubre"
+      ],
+      [
+        "KM",
+        "5,17"
+      ],
+      [
+        "RITMO MEDIO",
+        "5:51/km"
+      ],
+      [
+        "RITMO PROMEDIO",
+        "9:15/km"
+      ],
+      [
+        "TIEMPO MOVIMIENTO",
+        "30:19:00"
+      ],
+      [
+        "TIEMPO TOTAL",
+        "47:55:00"
+      ],
+      [
+        "DESNIVEL",
+        "75 m"
+      ],
+      [
+        "ZONA",
+        "Diagonal - Bonanova"
+      ]
+    ]
   },
   {
     "fecha": "2026-10-16",
     "km": 8.03,
     "ritmo": "6:22",
     "kudos": 2,
-    "comentario": null,
-    "lectura": "sin_registro",
+    "comentario": "como este finde llueve he salido hoy pero estaba recansada 💔🩼🦵\nsiento que no me ha rentado nada bajar a la playa, parándome una barbaridad la verdad (4) 😭😭🥹🥹\nun calor aparte!!! pero MUY BUEN SUNSET ESO SII",
+    "lectura": "mixto",
     "visibilidad": null,
-    "id": 42
+    "id": 42,
+    "datosHoja": [
+      [
+        "FECHA",
+        "16 octubre"
+      ],
+      [
+        "KM",
+        "8,03"
+      ],
+      [
+        "RITMO MEDIO",
+        "6:22 /km"
+      ],
+      [
+        "RITMO PROMEDIO",
+        "6:56/km"
+      ],
+      [
+        "TIEMPO MOVIMIENTO",
+        "51:05:00"
+      ],
+      [
+        "TIEMPO TOTAL",
+        "55:42:00"
+      ],
+      [
+        "DESNIVEL",
+        "19 m"
+      ],
+      [
+        "ZONA",
+        "Barceloneta"
+      ]
+    ]
   },
   {
     "fecha": "2026-10-20",
@@ -431,27 +1879,129 @@ const registros = [
     "comentario": "easyrun",
     "lectura": "neutro",
     "visibilidad": null,
-    "id": 43
+    "id": 43,
+    "datosHoja": [
+      [
+        "FECHA",
+        "20 octubre"
+      ],
+      [
+        "KM",
+        "6,28"
+      ],
+      [
+        "RITMO MEDIO",
+        "6:25/km"
+      ],
+      [
+        "RITMO PROMEDIO",
+        "7:58/km"
+      ],
+      [
+        "TIEMPO MOVIMIENTO",
+        "40:19:00"
+      ],
+      [
+        "TIEMPO TOTAL",
+        "50:05:00"
+      ],
+      [
+        "DESNIVEL",
+        "61 m"
+      ],
+      [
+        "ZONA",
+        "Mitre - Diagonal - Bona"
+      ]
+    ]
   },
   {
     "fecha": "2026-10-22",
     "km": 6.54,
     "ritmo": "6:19",
     "kudos": 2,
-    "comentario": null,
-    "lectura": "sin_registro",
+    "comentario": "con mi sheila 🎀🌟",
+    "lectura": "neutro",
     "visibilidad": null,
-    "id": 44
+    "id": 44,
+    "datosHoja": [
+      [
+        "FECHA",
+        "22 octubre"
+      ],
+      [
+        "KM",
+        "6,54"
+      ],
+      [
+        "RITMO MEDIO",
+        "6:19/km"
+      ],
+      [
+        "RITMO PROMEDIO",
+        "10:11/km"
+      ],
+      [
+        "TIEMPO MOVIMIENTO",
+        "41:21:00"
+      ],
+      [
+        "TIEMPO TOTAL",
+        "1 h 06:37"
+      ],
+      [
+        "DESNIVEL",
+        "75 m"
+      ],
+      [
+        "ZONA",
+        "Diagonal - Bonanova"
+      ]
+    ]
   },
   {
     "fecha": "2026-10-28",
     "km": 8.04,
     "ritmo": "6:13",
     "kudos": 5,
-    "comentario": null,
-    "lectura": "sin_registro",
+    "comentario": "vamos 💪🏼🔜\nno hay día que salga a correr y no se me revuelva el estómago 😵‍💫💩\n(he estado unos días descansanso y tengo bastante mejor la rodilla 🤸🏻‍♀️)",
+    "lectura": "dificil",
     "visibilidad": null,
-    "id": 45
+    "id": 45,
+    "datosHoja": [
+      [
+        "FECHA",
+        "28 octubre"
+      ],
+      [
+        "KM",
+        "8,04"
+      ],
+      [
+        "RITMO MEDIO",
+        "6:13/km"
+      ],
+      [
+        "RITMO PROMEDIO",
+        "7:28/km"
+      ],
+      [
+        "TIEMPO MOVIMIENTO",
+        "49:58:00"
+      ],
+      [
+        "TIEMPO TOTAL",
+        "1h 00"
+      ],
+      [
+        "DESNIVEL",
+        "21 m"
+      ],
+      [
+        "ZONA",
+        "Bonanova - Diagonal"
+      ]
+    ]
   }
 ];
 const $ = id => document.getElementById(id);
@@ -540,7 +2090,7 @@ function pintarDetalle(){
   $('detailKm').textContent=fmt(d.km);
   $('detailPace').textContent=d.ritmo||'—';
   $('detailKudos').textContent=String(d.kudos??'—');
-  $('detailScope').textContent=d.comentario ? c.lectura : '';
+  $('detailScope').textContent = d.datosHoja.map(([campo, valor]) => campo + ': ' + valor).join(' · ');
 }
 function pintarArchivo(){
   const svg=$('archiveViz');svg.replaceChildren();
