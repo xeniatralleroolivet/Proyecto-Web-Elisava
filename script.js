@@ -126,7 +126,57 @@ function shapePath(cx,cy,r,seed,roughness=.37){
   return d+' Z';
 }
 
+function montarScrolls(registros) {
+  const nota = registros.find(r => r.fecha === '2026-04-12');
+  const ficha = $('scroll-nota');
+  const calendario = $('scroll-meses');
+  calendario.hidden = false;
+  if (nota) {
+    ficha.hidden = false;
+    $('loop-km').textContent = fmt(nota.km);
+    $('loop-metrics').textContent = fmt(nota.km) + ' km · ' + nota.ritmo + ' min/km · ' + (nota.kudos ?? '—') + ' kudos';
+    $('loop-note').textContent = nota.comentario;
+  }
+  const svg = $('loop-chart');
+  for (let mes = 0; mes < 7; mes++) {
+    const x = 32 + mes * 48;
+    E('line',{x1:x,y1:14,x2:x,y2:140,stroke:'#d6d5cf'},svg);
+    E('text',{x:x,y:162,'text-anchor':'middle','font-size':10},svg).textContent = mesesCortos[mes + 3];
+  }
+  E('text',{x:4,y:18,'font-size':9},svg).textContent='1';
+  E('text',{x:4,y:143,'font-size':9},svg).textContent='31';
+  const puntos = registros.map(r => {
+    const mes = Number(r.fecha.slice(5,7)) - 4;
+    const dia = Number(r.fecha.slice(-2));
+    const ajuste = r.tramo === 'ida' ? -3 : r.tramo === 'vuelta' ? 3 : 0;
+    return {mes, marca:E('circle',{cx:32+mes*48+ajuste,cy:14+(dia-1)*126/30,r:2.7},svg)};
+  });
+  function avance(seccion) {
+    const rect = seccion.getBoundingClientRect();
+    const tramo = Math.max(1,rect.height - window.innerHeight);
+    return Math.max(0,Math.min(1,-rect.top / tramo));
+  }
+  let mesAnterior = -1;
+  function actualizar() {
+    if (nota) $('loop-note-box').style.clipPath = 'inset(0 0 ' + ((1-avance(ficha))*100) + '% 0)';
+    const mes = Math.round(avance(calendario)*6);
+    if (mes === mesAnterior) return;
+    mesAnterior = mes;
+    let total = 0;
+    for (const {marca,mes:indice} of puntos) {
+      marca.style.display = indice <= mes ? '' : 'none';
+      marca.setAttribute('fill',indice === mes ? '#b65342' : '#4b654f');
+      if (indice <= mes) total++;
+    }
+    $('loop-month').textContent = meses[mes+3] + ' · ' + total + ' registros acumulados';
+  }
+  window.addEventListener('scroll',actualizar,{passive:true});
+  window.addEventListener('resize',actualizar);
+  actualizar();
+}
+
 function iniciarDatos(registros) {
+  montarScrolls(registros);
   document.querySelectorAll('[data-fecha]').forEach(tarjeta => {
     const salida = registros.find(r => r.fecha === tarjeta.dataset.fecha);
     if (!salida) { tarjeta.hidden = true; return; }
