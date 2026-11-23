@@ -14,7 +14,7 @@ Después puedes explorar mis actividades por fecha, cambiar entre los registros 
 
 ## Investigación y datos
 
-La tabla contiene 46 registros de abril a octubre. La visualización incluye 45 y excluye la actividad de cinta del 16 de septiembre. La web carga los registros desde `script.js`. Si se actualiza el CSV, hay que trasladar el cambio al archivo de la web y cotejar ambos. [Descargar la tabla](STRAVA_estadisticas.csv) · [Memoria de investigación en Figma](https://www.figma.com/proto/gtEELYZlfy4jSi33xGa0Sh/TRALLERO_ENTREGA-1_INVESTIGACI%C3%93N?node-id=0-1)
+La tabla contiene 46 registros de abril a octubre. La visualización incluye 45 y excluye la actividad de cinta del 16 de septiembre. La web lee `STRAVA_estadisticas.csv` cada vez que se abre o se recarga. Para corregir una nota o una métrica, edita la celda correspondiente del CSV del repositorio. Las categorías emocionales son lecturas editoriales: una nota modificada queda sin clasificar hasta que se revise. [Descargar la tabla](STRAVA_estadisticas.csv) · [Memoria de investigación en Figma](https://www.figma.com/proto/gtEELYZlfy4jSi33xGa0Sh/TRALLERO_ENTREGA-1_INVESTIGACI%C3%93N?node-id=0-1)
 
 ## Documentación
 
@@ -25,4 +25,4 @@ La tabla contiene 46 registros de abril a octubre. La visualización incluye 45 
 
 ## Abrir la web
 
-Descarga el repositorio y abre `index.html` en el navegador. La página carga `style.css` para los estilos y `script.js` para las interacciones.
+En una web alojada, la tabla se carga automáticamente. Para abrir el proyecto con doble clic, descarga el repositorio, abre `index.html` y selecciona `STRAVA_estadisticas.csv` cuando la página lo pida.
