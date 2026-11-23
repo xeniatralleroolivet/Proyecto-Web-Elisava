@@ -43,3 +43,7 @@ En la próxima sesión, leer los documentos de definición y este registro; desp
 - Se actualizó `personalidad.md` con la dirección confirmada por Xènia: una web que refleje su identidad, presente los entrenamientos con naturalidad y deje espacio para explorar los datos sin convertirlos en una competición.
 - La elección de los recursos gráficos concretos sigue abierta.
 - Próximo paso: revisar `contexto.md` con Xènia cuando quiera continuar con el siguiente documento.
+
+## 23 de noviembre de 2026 — Referente visual
+
+Se precisó en `personalidad.md` qué interesa de *Dear Data*: la clasificación mediante formas y colores y la lectura de los diagramas con una leyenda. La tipografía y el acabado siguen abiertos. El siguiente documento por revisar es `contexto.md`.
