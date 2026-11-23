@@ -37,3 +37,9 @@ Establecer una documentación base y un protocolo para mantener la continuidad d
 
 ### Punto de continuación
 En la próxima sesión, leer los documentos de definición y este registro; después, decidir qué aspecto del producto digital se trabajará a continuación. No se ha modificado todavía el código de la web.
+
+## 23 de noviembre de 2026 — Personalidad de la web
+
+- Se actualizó `personalidad.md` con la dirección confirmada por Xènia: una web que refleje su identidad, presente los entrenamientos con naturalidad y deje espacio para explorar los datos sin convertirlos en una competición.
+- La elección de los recursos gráficos concretos sigue abierta.
+- Próximo paso: revisar `contexto.md` con Xènia cuando quiera continuar con el siguiente documento.
