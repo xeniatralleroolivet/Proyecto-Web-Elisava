@@ -63,3 +63,7 @@ Conservar y mostrar íntegra toda la información de cada registro de entrenamie
 ## 23 de noviembre de 2026 — Revisión de archivos iniciales
 
 Se actualizó la presentación del proyecto en el README y se vinculó el protocolo con los criterios vigentes de alcance y fidelidad. La rama principal contiene una plantilla web y existe una versión distinta en la carpeta local. Queda por identificar qué versión quiere continuar Xènia antes de sustituir la plantilla.
+
+## 23 de noviembre de 2026 — Lo que no cuenta Strava
+
+Xènia eligió la versión con el archivo emocional y el muro de testigos. Se adaptó a los tres archivos de la web. El experimento utiliza tres salidas de abril. De los 45 registros, doce incluyen notas cotejadas con la hoja en PDF. Las restantes quedan pendientes del archivo editable para comprobar caracteres y saltos de línea. El muro funciona en modo local.
