@@ -13,7 +13,7 @@ En construcción. La identidad verbal y visual definitiva todavía no está cerr
 - Personal y desenfadada. La web debe reflejar mi manera de vivir y contar lo que me pasa cuando corro, con un tono natural e informal.
 
 ## Identidad visual
-Pendiente de definir. La dirección exploratoria actual contempla una representación más experimental y manual, evitando reproducir directamente el lenguaje gráfico habitual de Strava.
+Quiero explorar un lenguaje gráfico propio para contar mis entrenamientos. De *Dear Data* me interesa cómo las formas y los colores permiten clasificar lo que se observa, cómo se combinan esas marcas para construir un diagrama y cómo la leyenda ayuda a leerlo. Podría tomar esa manera de organizar los datos como referencia para representar mis sensaciones al correr. La tipografía y el acabado quedan abiertos, incluida la posibilidad de usar letra manuscrita si encaja con mi web.
 
 Quiero alejarme de la estética rígida y excesivamente formal que suelen tener las visualizaciones de datos. Busco una forma más suelta y cercana de presentar mis entrenamientos, que invite a explorar los datos con curiosidad.
 
