@@ -1,21 +1,133 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Mi proyecto</title>
-  <!-- El nombre tiene que coincidir con el del archivo: style.css -->
+  <meta name="theme-color" content="#f7f5f0">
+  <meta name="description" content="Lo que no cuenta Strava: una experiencia interactiva sobre qué entrenamientos decidimos mostrar y qué sentimos al correr.">
+  <title>¿Esto lo publicarías? — Lo que no cuenta Strava</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@400;500;600;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<header class="topbar">
+  <div class="wrap nav">
+    <a class="logo" href="#inicio" aria-label="Lo que no cuenta, volver al inicio"><svg viewBox="0 0 36 36" aria-hidden="true"><path d="M19 3C29 4 34 12 32 21C29 32 16 34 7 27C-1 20 4 8 13 5C16 4 17 3 19 3Z" fill="none" stroke="#ed806a" stroke-width="3"/><path d="M9 24C14 13 18 25 26 13" fill="none" stroke="#292e2a" stroke-width="2.2" stroke-linecap="round"/></svg><span>LO QUE NO<br>CUENTA.</span></a>
+    <nav class="navlinks" id="navlinks" aria-label="Navegación principal"><a href="#inicio">El experimento</a><a href="#mis-datos">Mi historia</a><a href="#archivo">Archivo emocional</a><a href="#mirada">La mirada ajena</a><a href="#pregunta">La pregunta</a></nav>
+    <span class="navmeta">Una investigación personal · 2026</span><button type="button" class="menu-btn" id="menuBtn" aria-label="Abrir menú" aria-expanded="false">☰</button>
+  </div><div class="scroll-progress" id="progress"></div>
+</header>
+<main>
+  <section class="wrap opening" id="inicio" aria-labelledby="openingTitle">
+    <div class="opening-copy">
+      <div><div class="eyebrow">00 / Antes de ver los resultados</div>
+        <h1 class="display" id="openingTitle">¿Esto<br>lo <em class="serif">publicarías?</em></h1>
+        <p class="lede">Antes de hablar de mis entrenamientos, quiero que tomes una decisión: ¿qué hace que una experiencia merezca ser compartida?</p>
+        <p class="hint">No hace falta correr, usar Strava ni entender de ritmos. Lee una vivencia, decide si la mostrarías y descubre después los números.</p>
+      </div>
+      <div class="opening-tag"><a class="round-arrow" href="#relato" aria-label="Ir a la reflexión siguiente">↓</a><div class="eyebrow">Primero juzgamos.<br>Después conocemos.</div></div>
+      <svg class="opening-watermark" viewBox="0 0 420 350" aria-hidden="true"><path d="M14 190C45 45 166 42 177 141C188 241 300 313 359 197C396 127 285 54 263 153"/><path d="M2 228C48 127 96 269 160 197C240 111 281 325 404 82"/><path d="M70 302C97 232 189 319 261 258"/></svg>
+    </div>
+    <div class="experiment-pane">
+      <div class="experiment-card" aria-label="Experimento interactivo: decidir si publicar una experiencia">
+        <div class="experiment-top"><span class="eyebrow">Una historia, dos lecturas</span><div class="step-dots" id="stepDots" aria-label="Historia 1 de 3"><i class="active"></i><i></i><i></i></div></div>
+        <div class="sketch"><svg id="scenarioSketch" viewBox="0 0 340 112" role="img" aria-label="Ilustración emocional abstracta"><path d="M8 84 C65 17 82 111 137 49 S246 118 329 34" stroke="#ed846e" stroke-width="9"/><path d="M12 34 Q71 115 140 59 T327 78" stroke="#8db2ce" stroke-width="5"/></svg></div>
+        <div class="eyebrow muted" id="scenarioNumber">HISTORIA 01 / 03 · SIN MÉTRICAS</div>
+        <h2 class="story-text" id="scenarioText">HORRIBLE estaba muerta. gran parte andando. he vuelto en bus</h2>
+        <div class="answer-area">
+          <p class="prompt">¿La compartirías si fuese tuya?</p>
+          <div class="choice-row" role="group" aria-label="Elige si publicarías la experiencia"><button type="button" class="choice" data-answer="si">Sí</button><button type="button" class="choice" data-answer="no">No</button><button type="button" class="choice" data-answer="depende">Depende</button></div>
+          <div class="reveal" id="reveal" aria-live="polite" hidden>
+            <div class="reveal-title"><span>Ahora sí: lo que mostraría Strava</span><span id="personalAnswer">—</span></div>
+            <div class="metrics"><div class="metric"><b id="expKm">—</b><span>Distancia</span></div><div class="metric"><b id="expPace">—</b><span>Ritmo / km</span></div><div class="metric"><b id="expKudos">—</b><span>Kudos</span></div></div>
+            <p id="expReflection"></p>
+            <div class="experiment-next"><button class="solid-btn" type="button" id="nextCase">Siguiente historia <span>↗</span></button><button class="text-btn" type="button" id="changeDecision">Cambiar respuesta</button></div>
+          </div>
+          <div class="epilogue" id="expEnd" hidden aria-live="polite"><span class="eyebrow">Tres decisiones después</span><p id="expSummary"></p><div class="experiment-next"><a class="solid-btn" href="#mis-datos">Ahora, mira mis registros ↗</a><button class="text-btn" type="button" id="restartCases">Repetir el experimento</button></div></div>
+          <div class="exp-note">Tres salidas de abril con mis notas originales. Tus decisiones se quedan en esta página; no se envían ni se guardan.</div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  <h1>El título de mi proyecto</h1>
-  <p>Una frase que explica de qué trata.</p>
+  <section class="turning" id="relato" aria-labelledby="turnTitle"><div class="wrap"><div class="layout"><div class="eyebrow kicker">01 / Lo que consideramos visible</div><div><h2 id="turnTitle">No te he preguntado si era un <em class="serif">buen entrenamiento.</em><br>Te he preguntado si lo <em class="serif">enseñarías.</em></h2><div class="turning-foot"><span>¿Cuándo una experiencia se vuelve publicable?</span><span>¿Y quién decide cuánto vale?</span></div></div></div></div></section>
 
-  <button id="boton">Ver mi pregunta</button>
-  <p id="texto" hidden>Aquí va mi pregunta de investigación.</p>
+  <section class="section" id="mis-datos" aria-labelledby="dataTitle"><div class="wrap">
+    <div class="section-head"><div class="index-label"><strong>02 /</strong> De tu mirada a la mía</div><div><h2 class="display" id="dataTitle">Ahora hablemos<br>de <em class="serif">mis salidas.</em></h2><p>El experimento empieza con una decisión ajena. Mi investigación empieza cuando me hago esa misma pregunta con mis propios entrenamientos: ¿qué muestro, qué comento y qué queda sin explicación?</p></div></div>
+    <div class="bio-layout"><div><p class="bio-prose">Durante siete meses registré mis entrenamientos en Strava. La aplicación medía distancias, ritmos, tiempos y kudos. <em>Yo también dejaba pequeños relatos:</em> cansancio, calor, orgullo, dolor, humor, ganas de repetir.</p><p>Al volver a leerlos, me interesó menos encontrar mi mejor marca que descubrir las contradicciones entre una cifra y lo que escribí sobre ella. Mi cuenta podía funcionar como un diario personal, pero era un diario construido en una plataforma donde otras personas también pueden mirar.</p></div>
+      <div class="file-notes"><div class="data-stat"><b>07</b><span><strong>Meses</strong>De abril a octubre, reunidos en un mismo archivo.</span></div><div class="data-stat"><b id="totalActivities">45</b><span><strong>Registros analizados</strong>Actividades de mi hoja original, con dos tramos separados el 31 de mayo.</span></div><div class="data-stat"><b id="totalKm">257,91</b><span><strong>Kilómetros registrados</strong>Suma de las distancias incluidas en esta visualización.</span></div><p class="data-source">Fuente: mi tabla «STRAVA – Hoja 1 (1).pdf». Se excluye la actividad de cinta del 16/09, según el criterio de la investigación. La tabla no indica qué actividades eran públicas o privadas.</p></div>
+    </div>
+    <div class="observations"><article class="observation"><span class="count">01.</span><h3>La constancia también tiene días malos.</h3><p>En mis comentarios aparecen pausas, molestias y salidas difíciles que una gráfica de ritmos no puede explicar.</p></article><article class="observation"><span class="count">02.</span><h3>El diario y la vitrina conviven.</h3><p>Escribo para registrar lo vivido, pero hacerlo en una red social abre otra pregunta: ¿para quién construyo ese relato?</p></article><article class="observation"><span class="count">03.</span><h3>La visibilidad no es neutral.</h3><p>Los kudos aumentan en los últimos meses de este registro. Eso no demuestra por qué publiqué, pero sí invita a examinar la mirada ajena.</p></article></div>
+  </div></section>
 
-  <!-- El JavaScript va al final, cuando la página ya está cargada -->
-  <script src="script.js"></script>
+  <section class="section duel" id="dos-caras" aria-labelledby="duelTitle"><div class="wrap">
+    <div class="section-head"><div class="index-label"><strong>03 /</strong> Una contradicción real</div><div><h2 class="display" id="duelTitle">Casi la misma distancia.<br><em class="serif">Dos experiencias.</em></h2><p>Estas dos actividades sí proceden de mi tabla. Sus números se parecen, pero los comentarios escritos junto a ellas cuentan experiencias muy diferentes.</p></div></div>
+    <div class="duel-grid"><article class="duel-card"><div class="duel-top"><span class="eyebrow">20 junio</span><span class="eyebrow">Caso real A</span></div><div class="duel-art"><svg viewBox="0 0 400 140" aria-hidden="true"><path d="M16 95 C49 33 76 119 125 55 S194 126 247 62 S319 128 381 40" fill="none" stroke="#8ab1d0" stroke-width="9" stroke-linecap="round"/><path d="M16 35 C70 107 102 21 151 76 S279 8 386 98" fill="none" stroke="#303c38" stroke-width="2" stroke-dasharray="4 8"/></svg></div><div class="distance">6,26 <small>km</small></div><div class="duel-under">6:36 min/km · 1 kudo</div><blockquote>dándole mucho al pico como siempre 🥴🌟🎀
+UNA PUTA MIERDA COMO UNA CASA 💩
+FATAL
+CALORRRO INFERNAL</blockquote></article>
+      <article class="duel-card second"><div class="duel-top"><span class="eyebrow">13 septiembre</span><span class="eyebrow">Caso real B</span></div><div class="duel-art"><svg viewBox="0 0 400 140" aria-hidden="true"><path d="M18 92 C65 95 78 43 123 68 S213 99 254 57 S334 52 383 36" fill="none" stroke="#e88a71" stroke-width="10" stroke-linecap="round"/><path d="M20 103 C91 135 168 109 213 116 S328 104 376 84" fill="none" stroke="#9bb598" stroke-width="5" stroke-linecap="round"/></svg></div><div class="distance">6,14 <small>km</small></div><div class="duel-under">7:00 min/km · 0 kudos</div><blockquote>Nota íntegra pendiente de cotejar con el original.</blockquote></article></div>
+    <div class="duel-point">En el segundo entrenamiento fui más despacio y recibí menos kudos. Pero dejé escrito que había tenido buenas sensaciones. <strong>¿Qué parte de esa historia sobreviviría si solo mirásemos las cifras?</strong></div>
+
+  </div></section>
+
+  <section class="section archive" id="archivo" aria-labelledby="archiveTitle"><div class="wrap">
+    <div class="section-head"><div class="index-label"><strong>04 /</strong> Archivo emocional</div><div><h2 class="display" id="archiveTitle">Lo que registré.<br><em class="serif">Lo que sentí.</em></h2><p>Una misma colección de entrenamientos, dos lenguajes distintos. Cambia de vista y selecciona cada forma para leer los números y consultar su nota cuando esté verificada.</p></div></div>
+    <div class="data-banner"><span class="badge">Datos reales</span><span>45 registros extraídos de mi hoja de Strava. Las notas disponibles se reproducen completas. Las que quedan por cotejar aparecen como pendientes. Los colores expresan una lectura editorial.</span></div>
+    <div class="archive-toolbar"><div class="switches" role="group" aria-label="Elegir la capa de visualización"><button type="button" id="viewFeeling" aria-pressed="true">Lo que sentí</button><button type="button" id="viewPosted" aria-pressed="false">Lo que registré</button></div><div class="filters" role="group" aria-label="Filtrar por interpretación del comentario"><span>Filtrar</span><button type="button" data-filter="todas" aria-pressed="true">Todas</button><button type="button" data-filter="agradable" aria-pressed="false">Bienestar</button><button type="button" data-filter="dificil" aria-pressed="false">Dificultad</button><button type="button" data-filter="mixto" aria-pressed="false">Mixto</button><button type="button" data-filter="neutro" aria-pressed="false">Rutina</button><button type="button" data-filter="sin_registro" aria-pressed="false">Sin dato</button></div></div>
+    <div class="archive-scroller"><svg id="archiveViz" class="archive-viz" viewBox="0 0 1110 365" role="group" aria-label="Cronología interactiva de actividades reales entre abril y octubre"></svg></div>
+    <div class="archive-caption"><span>ABRIL — OCTUBRE · CADA FORMA ES UN REGISTRO</span><span>Toca o selecciona una forma para descubrir su historia ↗</span></div>
+    <div class="legend" id="archiveLegend"></div>
+    <div class="archive-detail" aria-live="polite"><div><div class="selected-day" id="detailDay">—</div><div class="selected-month" id="detailDate">—</div></div><div><div class="detail-eyebrow">El comentario que dejé</div><h3 class="detail-name" id="detailMood">—</h3><p class="detail-quote" id="detailText">—</p></div><div><div class="detail-eyebrow">Lo que muestra el registro</div><div class="detail-metrics"><div><b id="detailKm">—</b><span>km</span></div><div><b id="detailPace">—</b><span>min/km</span></div><div><b id="detailKudos">—</b><span>kudos</span></div></div><p class="detail-scope" id="detailScope">—</p></div></div>
+    <div class="archive-foot">Cómo leer el archivo: en la vista de sensaciones, el color señala una interpretación del texto escrito. En la vista de números, el tamaño indica kilómetros y el pequeño punto exterior indica kudos. Ninguna marca significa que una actividad «valga más». <strong>No se ha inferido la visibilidad pública o privada</strong> porque esa información no aparece en el documento consultado.</div>
+  </div></section>
+
+  <section class="section gaze" id="mirada" aria-labelledby="gazeTitle"><div class="wrap">
+    <div class="section-head"><div class="index-label"><strong>05 /</strong> La mirada ajena</div><div><h2 class="display" id="gazeTitle">¿Qué pasa cuando<br><em class="serif">alguien mira?</em></h2><p>La plataforma no solo conserva mis actividades. También puede devolverme una reacción: el kudo, el comentario y, sobre todo, la posibilidad de ser observada.</p></div></div>
+    <div class="gaze-grid"><div class="gaze-chart"><div class="gaze-chart-top"><h3>Kudos medios por actividad</h3><span class="eyebrow muted">Abr — Oct</span></div><div class="bar-box" id="kudosBars" role="img" aria-label="Gráfico de kudos medios mensuales basado en la hoja original"></div><p class="chart-foot">Media de kudos por registro en cada mes; no representa el número de personas que vieron una actividad ni la cantidad de seguidores. Los datos no permiten demostrar una causa.</p></div>
+      <div class="gaze-prose"><h3>Si es un diario personal, ¿por qué necesito <em class="serif">enseñarlo?</em></h3><p>En mis registros, los kudos medios pasan de valores muy bajos durante el verano a un nivel mayor en octubre. Pero la pregunta más interesante no es cuántos recibo, sino qué papel tiene saber que existe un público.</p><p>Puedo correr por mí misma, sentir satisfacción personal y, al mismo tiempo, buscar reconocimiento. Esas motivaciones no tienen por qué excluirse. Lo que quiero cuestionar es cuándo la mirada de los demás empieza a modificar la forma de narrarme.</p><div class="insight">«¿Estoy contando lo que me ha pasado o construyendo la versión que quiero que vean?»</div></div></div>
+  </div></section>
+
+  <section class="section method" id="proceso" aria-labelledby="methodTitle"><div class="wrap"><div class="section-head"><div class="index-label"><strong>06 /</strong> Investigación y prototipado</div><div><h2 class="display" id="methodTitle">Hacer visible<br><em class="serif">lo invisible.</em></h2><p>Mi proceso combina observación personal, lectura crítica de una plataforma y diseño de datos. La interfaz no elimina las estadísticas: las acompaña de experiencias y preguntas.</p></div></div>
+    <div class="method-cards"><article class="method-card"><span class="num">01.</span><h3>Recoger</h3><p>Ordené fecha, distancia, ritmo, kudos y comentarios personales de las actividades de abril a octubre, diferenciando registros y sensaciones.</p></article><article class="method-card"><span class="num">02.</span><h3>Interpretar</h3><p>Volví a leer cada comentario, comparé actividades parecidas y señalé dónde una emoción está claramente escrita y dónde no puede saberse.</p></article><article class="method-card"><span class="num">03.</span><h3>Traducir</h3><p>Construí una gramática visual de formas, colores y capas para que una vivencia tenga presencia sin convertirse en una nota o clasificación de rendimiento.</p></article></div>
+    <div class="references"><p><strong>Referentes:</strong> <a href="https://www.dear-data.com/" target="_blank" rel="noopener noreferrer">Dear Data</a> — convertir la vida cotidiana en símbolos personales; <a href="https://pudding.cool/" target="_blank" rel="noopener noreferrer">The Pudding</a> — hacer de los datos un relato interactivo. Las composiciones abstractas de esta web son originales y no reproducen piezas de esos proyectos.</p><span class="micro muted">Prototipo responsive · Escritorio / Móvil</span></div>
+  </div></section>
+
+  <section class="finale" id="pregunta" aria-labelledby="finalTitle"><div class="wrap"><div class="index-label"><strong>07 /</strong> Una pregunta abierta</div><div class="line"></div>
+    <h2 id="finalTitle">Si corro para mí,<br>¿por qué necesito <em class="serif">que se vea?</em></h2>
+    <p class="main-question"><strong>¿Qué hay detrás de la necesidad de compartir mis resultados en Strava y cómo influye la mirada de los demás en mi manera de mostrarlo?</strong></p>
+    <div class="reflect-questions"><p>¿Correría de la misma manera si nadie pudiera ver mis resultados?</p><p>Si Strava es mi diario personal, ¿por qué elijo compartirlo?</p><p>¿Publico lo que he vivido o aquello que quiero que los demás piensen que he vivido?</p></div>
+    <div class="reflect-box" id="reflectBox">
+      <div class="reflect-intro"><span class="eyebrow">Tu turno / Una última reflexión</span>
+        <h3>¿Qué decides <em class="serif">hacer visible?</em></h3>
+        <p>Después de leer mis experiencias, piensa en una actividad de tu vida que compartas. Puede ser correr, dibujar, estudiar o cualquier otra cosa que dejes registrada para los demás.</p>
+        <p>No hay respuestas correctas. Si decides compartirla, tu reflexión aparecerá como un pequeño testigo anónimo en este archivo colectivo.</p>
+      </div>
+      <form class="reflect-form" id="reflectionForm">
+        <label for="reflection" class="eyebrow" style="display:block;margin-bottom:14px">Escribe una reflexión para ti</label>
+        <textarea id="reflection" minlength="10" maxlength="900" placeholder="Si nadie pudiera ver mis resultados, yo..." aria-describedby="reflectionPrivacy reflectionCount" required></textarea>
+        <div class="reflection-meta"><span id="reflectionCount">0 / 900 caracteres</span><span>Sin nombre ni datos personales.</span></div>
+        <label class="publish-consent"><input id="publicConsent" type="checkbox" required><span>Quiero compartir mi respuesta de forma anónima. Comprendo que, al publicar la web con una base de datos, cualquier persona podrá leerla.</span></label>
+        <div class="reflect-actions"><span class="copy-status" id="reflectionPrivacy" role="status" aria-live="polite"></span><div class="reflection-buttons"><button class="outline-btn" type="button" id="copyReflection">Copiar</button><button class="solid-btn" type="submit" id="sendReflection">Enviar mi reflexión <span aria-hidden="true">↗</span></button></div></div>
+      </form>
+    </div>
+    <section class="community" id="testigos" aria-labelledby="communityHeading">
+      <div class="community-heading"><div><span class="eyebrow">Archivo colectivo / Voces de otros</span><h3 id="communityHeading">Pequeños <em class="serif">testigos.</em></h3><p>Una forma, una reflexión. No sabemos quién hay detrás, pero podemos leer qué ha decidido compartir.</p></div><div class="community-counter"><b id="witnessCount">0</b><span>reflexiones compartidas</span></div></div>
+      <p class="community-state" id="communityState" role="status" aria-live="polite">Preparando el archivo colectivo…</p>
+      <div class="testigos-wall" id="testigosWall" role="group" aria-label="Testigos anónimos. Pulsa uno para leer su reflexión"></div>
+      <div class="community-empty" id="communityEmpty" hidden>Este archivo todavía no tiene testigos. Tu reflexión puede ser la primera.</div>
+      <article class="testigo-detail" id="testigoDetail" aria-live="polite" hidden>
+        <div class="testigo-detail-top"><span class="eyebrow" id="testigoNumber">TESTIGO 01</span><time class="micro muted" id="testigoDate"></time></div>
+        <p id="testigoText"></p>
+      </article>
+      <div class="community-actions"><button class="text-btn" type="button" id="loadMoreTestigos" hidden>Mostrar más testigos ↘</button><button class="text-btn" type="button" id="refreshTestigos">Actualizar respuestas ↻</button><p>Los colores diferencian los testigos; no juzgan las emociones. <strong id="communityModeLabel"></strong></p></div>
+    </section>
+    <div class="final-thought"><blockquote>Strava registra cuánto he corrido.<br><em class="serif">Yo quiero mostrar qué ha significado.</em></blockquote><a href="#inicio" class="to-top"><span>↑</span>Volver al inicio</a></div>
+  </div></section>
+</main>
+<footer><div class="wrap footer-line"><b>LO QUE NO CUENTA STRAVA<span style="color:var(--coral)">.</span></b><small>Investigación y producto digital personal · 2026</small><small>Proyecto independiente. No afiliado a Strava.</small></div></footer>
+<script src="script.js"></script>
 </body>
 </html>
