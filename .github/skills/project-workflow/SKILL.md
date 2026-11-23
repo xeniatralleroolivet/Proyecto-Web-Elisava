@@ -8,6 +8,8 @@ description: Protocolo para iniciar, desarrollar y cerrar sesiones de trabajo de
 ## Objetivo
 Mantener la continuidad del proyecto entre sesiones, respetando su contexto, personalidad y criterios acordados. Este skill es el protocolo de trabajo del repositorio.
 
+Este protocolo se aplica únicamente a las consultas sobre la web de Elisava. Las reglas de alcance y de tratamiento de los registros se mantienen en [criterio.md](../../../criterio.md).
+
 ## Antes de cada sesión
 1. Leer completos y en su versión más reciente:
    - `personalidad.md`
@@ -22,6 +24,7 @@ Mantener la continuidad del proyecto entre sesiones, respetando su contexto, per
 ## Durante la sesión
 - Usar los documentos de definición como referencia prioritaria.
 - Mantener coherencia con las decisiones ya tomadas.
+- Al incorporar entrenamientos, comprobar cada dato con el registro real de Xènia y cotejar la nota completa con el original, incluidos emojis, espacios y saltos de línea.
 - Diferenciar hechos, hipótesis, propuestas y decisiones confirmadas.
 - Cuestionar constructivamente las ideas cuando haya contradicciones o alternativas mejores; explicar los motivos.
 - No modificar `personalidad.md`, `contexto.md` ni `criterio.md` sin hablarlo antes con la persona usuaria y obtener su aprobación explícita.
@@ -61,4 +64,4 @@ No inventar trabajo, decisiones ni resultados. Si no se ha podido actualizar Git
 ```
 
 ## Activación
-Cuando la persona usuaria diga «empezamos sesión», «activa el workflow», «continuamos el proyecto» o solicite trabajo en este repositorio, aplicar este protocolo. Si el entorno no carga skills automáticamente, abrir este archivo y seguir sus instrucciones explícitamente.
+En una conversación sobre esta web, cuando la persona usuaria diga «empezamos sesión», «activa el workflow», «continuamos el proyecto» o solicite trabajo en este repositorio, aplicar este protocolo. Si el entorno no carga skills automáticamente, abrir este archivo y seguir sus instrucciones explícitamente.
