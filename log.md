@@ -79,3 +79,7 @@ Se incorporó el CSV de 46 registros y se revisaron el README, el contexto y los
 ## Lectura directa del CSV
 
 El experimento, la comparación, el archivo y las estadísticas leen la misma tabla al cargar la página. Se comprobó que los 45 registros conservan sus notas, cifras y categorías actuales y que una nota editada con comillas, un salto de línea y un emoji aparece completa. El inicio local permite seleccionar el CSV.
+
+## 23 de noviembre de 2026 — Ubicación del protocolo
+
+Se trasladó el protocolo de trabajo a [SKILL.md](SKILL.md) en la raíz del repositorio y se actualizó su enlace a los criterios del proyecto.
