@@ -67,3 +67,7 @@ Se actualizó la presentación del proyecto en el README y se vinculó el protoc
 ## 23 de noviembre de 2026 — Lo que no cuenta Strava
 
 Xènia eligió la versión con el archivo emocional y el muro de testigos. Se adaptó a los tres archivos de la web. El experimento utiliza tres salidas de abril. De los 45 registros, doce incluyen notas cotejadas con la hoja en PDF. Las restantes quedan pendientes del archivo editable para comprobar caracteres y saltos de línea. El muro funciona en modo local.
+
+## 23 de noviembre de 2026 — Cotejo con la tabla de estadísticas
+
+El PDF de estadísticas contiene 46 registros. Se recuperaron las notas por celdas y se corrigió la comparación de junio y septiembre. La web muestra las 45 actividades incluidas en la investigación. El CSV conserva también la actividad del 16 de septiembre. Los emojis dibujados en el PDF se transcribieron a Unicode a partir de su aspecto.
