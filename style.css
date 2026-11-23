@@ -59,3 +59,15 @@
 @media(max-width:450px){.testigos-wall{grid-template-columns:repeat(6,minmax(0,1fr));gap:13px 4px}.community-heading{display:block}.community-counter{text-align:left;margin-top:22px}.reflection-buttons{width:100%}.reflection-buttons button{flex:1;white-space:nowrap}.reflection-meta{display:block}.reflection-meta span{display:block;margin-top:3px}}
   
 #scenarioText, #detailText, .duel-card blockquote { white-space: pre-wrap; overflow-wrap: anywhere; }
+
+.loop-track { height:180vh; background:#f8f6ee; color:#242e29; }
+.loop-track[hidden] { display:none; }
+#scroll-meses { height:250vh; }
+.loop-stage { position:sticky; top:12vh; padding-block:4vh; display:grid; align-content:center; justify-items:start; gap:.8rem; min-height:60vh; }
+.loop-stage h2 {font-size:clamp(1.7rem,4.5vw,3.5rem);line-height:1.1;margin:0;}
+.loop-stage p {margin:0;}
+.loop-card {width:min(100%,34rem);background:#fffefa;border-top:4px solid #002fa7;padding:1rem;}
+#loop-metrics {font-size:1.4rem;margin:.7rem 0;}
+#loop-note-box {background:rgba(0,47,167,.12);padding:.7rem;clip-path:inset(0 0 100% 0);}
+#loop-note {white-space:pre-wrap;overflow-wrap:anywhere;}
+#loop-chart {width:min(100%,36rem);max-height:40vh;}
