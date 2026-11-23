@@ -59,3 +59,7 @@ Se actualizó `criterio.md` por indicación de Xènia. La web y sus prototipos u
 ## 23 de noviembre de 2026 — Fidelidad a los registros originales
 
 Conservar y mostrar íntegra toda la información de cada registro de entrenamiento, sin resumir, recortar, reformular ni corregir. Reproducir literalmente cada nota, por larga que sea, con sus palabras, emojis, repeticiones, erratas, mayúsculas, signos de puntuación, espacios y saltos de línea originales. Este acuerdo se incorporó a los criterios de datos del proyecto web.
+
+## 23 de noviembre de 2026 — Revisión de archivos iniciales
+
+Se actualizó la presentación del proyecto en el README y se vinculó el protocolo con los criterios vigentes de alcance y fidelidad. La rama principal contiene una plantilla web y existe una versión distinta en la carpeta local. Queda por identificar qué versión quiere continuar Xènia antes de sustituir la plantilla.
