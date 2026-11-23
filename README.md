@@ -18,6 +18,7 @@ La tabla contiene 46 registros de abril a octubre. La visualización incluye 45 
 
 ## Documentación
 
+- [Protocolo de trabajo](SKILL.md) recoge las instrucciones para las sesiones del proyecto.
 - [Contexto](contexto.md) recoge la pregunta, el material de investigación y las cuestiones abiertas.
 - [Personalidad](personalidad.md) define la voz del proyecto y su dirección visual.
 - [Criterios](criterio.md) explica cómo trabajar con mis registros reales y conservar mis notas íntegras.
