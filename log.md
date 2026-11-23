@@ -51,3 +51,7 @@ Se precisó en `personalidad.md` qué interesa de *Dear Data*: la clasificación
 ## 23 de noviembre de 2026 — Contexto de la investigación
 
 Se actualizó `contexto.md` con la pregunta aprobada sobre cómo influye la mirada ajena al mostrar los resultados, el periodo de abril a octubre y las dos lecturas de cada salida. La línea temporal sigue siendo una posibilidad. El próximo documento por revisar con Xènia es `criterio.md`.
+
+## 23 de noviembre de 2026 — Criterios de datos y alcance
+
+Se actualizó `criterio.md` por indicación de Xènia. La web y sus prototipos usarán exclusivamente sus registros reales de entrenamiento. Las instrucciones del proyecto se aplicarán solo a las consultas sobre esta web.
