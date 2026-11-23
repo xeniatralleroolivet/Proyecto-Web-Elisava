@@ -75,3 +75,7 @@ El PDF de estadísticas contiene 46 registros. Se recuperaron las notas por celd
 ## 23 de noviembre de 2026 — Memoria, audiencia y archivo de datos
 
 Se incorporó el CSV de 46 registros y se revisaron el README, el contexto y los criterios a partir de la memoria de Figma y del prototipo actual. Quedan documentados el público, la interpretación personal de la mirada ajena y las interacciones disponibles. La selección de la web sigue excluyendo el 16 de septiembre.
+
+## Lectura directa del CSV
+
+El experimento, la comparación, el archivo y las estadísticas leen la misma tabla al cargar la página. Se comprobó que los 45 registros conservan sus notas, cifras y categorías actuales y que una nota editada con comillas, un salto de línea y un emoji aparece completa. El inicio local permite seleccionar el CSV.
