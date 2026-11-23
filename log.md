@@ -83,3 +83,25 @@ El experimento, la comparación, el archivo y las estadísticas leen la misma ta
 ## 23 de noviembre de 2026 — Ubicación del protocolo
 
 Se trasladó el protocolo de trabajo a [SKILL.md](SKILL.md) en la raíz del repositorio y se actualizó su enlace a los criterios del proyecto.
+
+## 23 de noviembre de 2026 · Entrega 2 · Una vuelta completa del loop
+
+### Scroll 1 · ¿Qué te dicen 5,53 kilómetros?
+
+**Intención.** Quiero que quien visite la web se forme una primera impresión de mi salida del 12 de abril al ver la distancia, el ritmo y los kudos. Después podrá releer esas cifras junto a lo que escribí ese día.
+
+**Primera versión.** La tarjeta permanece fija al bajar. El scroll revela poco a poco la nota original, que se carga desde el CSV.
+
+**Prueba y observación.** Se ejecutó la lógica de la interacción con los registros reales y se simularon tres posiciones del scroll. En la posición intermedia, la primera versión ocultaba la mitad superior de la nota. Eso hacía aparecer el final del comentario antes que el principio.
+
+**Cambio.** Se invirtió el sentido del recorte. Ahora se descubre primero el encabezado de la nota y después el texto en su orden de lectura.
+
+**Nueva prueba y decisión.** Con alturas simuladas de 640 y 800 píxeles, se recorrió la secuencia en ambas direcciones. Al bajar se pasó de nota oculta a media nota y a nota completa. Al subir se recuperaron los estados anteriores. El comentario coincidió con la celda del CSV. Se conserva esta segunda versión para la V1.
+
+### Scroll 2 · Siete meses, salida a salida
+
+**Intención.** Hacer visible la constancia a través de los días en los que salí a correr y de los espacios que quedan entre ellos.
+
+**Implementación y prueba.** Cada punto ocupa el día y el mes de una actividad. Al bajar se incorpora un mes y permanecen visibles los anteriores. Se comprobó que el contador y los puntos visibles coincidían en abril (3), julio (18) y octubre (45). Al retroceder se recuperaron los 18 puntos de julio y los 3 de abril.
+
+**Alcance de las pruebas.** Las comprobaciones fueron técnicas, con posiciones de scroll simuladas. Queda pendiente observar cómo una persona interpreta los dos recorridos en un navegador.
