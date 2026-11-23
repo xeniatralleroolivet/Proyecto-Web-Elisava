@@ -47,3 +47,7 @@ En la próxima sesión, leer los documentos de definición y este registro; desp
 ## 23 de noviembre de 2026 — Referente visual
 
 Se precisó en `personalidad.md` qué interesa de *Dear Data*: la clasificación mediante formas y colores y la lectura de los diagramas con una leyenda. La tipografía y el acabado siguen abiertos. El siguiente documento por revisar es `contexto.md`.
+
+## 23 de noviembre de 2026 — Contexto de la investigación
+
+Se actualizó `contexto.md` con la pregunta aprobada sobre cómo influye la mirada ajena al mostrar los resultados, el periodo de abril a octubre y las dos lecturas de cada salida. La línea temporal sigue siendo una posibilidad. El próximo documento por revisar con Xènia es `criterio.md`.
