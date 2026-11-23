@@ -55,3 +55,7 @@ Se actualizó `contexto.md` con la pregunta aprobada sobre cómo influye la mira
 ## 23 de noviembre de 2026 — Criterios de datos y alcance
 
 Se actualizó `criterio.md` por indicación de Xènia. La web y sus prototipos usarán exclusivamente sus registros reales de entrenamiento. Las instrucciones del proyecto se aplicarán solo a las consultas sobre esta web.
+
+## 23 de noviembre de 2026 — Fidelidad a los registros originales
+
+Conservar y mostrar íntegra toda la información de cada registro de entrenamiento, sin resumir, recortar, reformular ni corregir. Reproducir literalmente cada nota, por larga que sea, con sus palabras, emojis, repeticiones, erratas, mayúsculas, signos de puntuación, espacios y saltos de línea originales. Este acuerdo se incorporó a los criterios de datos del proyecto web.
