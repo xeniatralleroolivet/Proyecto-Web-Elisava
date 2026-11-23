@@ -23,7 +23,7 @@ Aplicar las instrucciones del proyecto únicamente cuando Xènia esté hablando 
 ## Criterios visuales y formales
 - No reproducir directamente la identidad gráfica ni las visualizaciones estándar de Strava.
 - Explorar un lenguaje más experimental y, cuando tenga sentido, manual.
-- Valorar la línea temporal como posible estructura narrativa, sin darla todavía por definitiva.
+- Usar el archivo cronológico del prototipo para que se pueda seguir la evolución de abril a octubre y abrir una actividad concreta.
 - Buscar una forma visual que comunique proceso y experiencia, no solo rendimiento.
 
 ## Criterios de interacción
@@ -36,8 +36,13 @@ Aplicar las instrucciones del proyecto únicamente cuando Xènia esté hablando 
 - Mantener el código organizado y comprensible.
 - Comprobar los cambios en la web después de implementarlos.
 
+## Interacciones presentes en el prototipo
+- Decidir si se compartiría una salida antes de descubrir sus métricas y poder cambiar de respuesta.
+- Alternar entre las dos vistas del archivo, filtrar por la interpretación de las sensaciones y consultar cada comentario completo.
+- Dejar una reflexión en el muro de testigos del navegador.
+
 ## Aspectos por acordar
 - Estructura definitiva del producto digital.
 - Sistema visual y tipográfico.
-- Tipo de visualizaciones y nivel de interacción.
+- Ajustes de las visualizaciones y de la navegación después de probarlas con visitantes.
 - Equilibrio entre recursos manuales y digitales.
