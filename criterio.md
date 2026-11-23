@@ -2,6 +2,9 @@
 
 > Criterios de trabajo iniciales, sujetos a revisión y aprobación. No equivalen a decisiones formales sobre el diseño final.
 
+## Alcance
+Aplicar las instrucciones del proyecto únicamente cuando Xènia esté hablando de su web de Elisava o pida trabajar en ella. En las demás consultas al chat, responder a la petición del momento sin trasladar los criterios, el tono ni los datos de la web, aunque el tema también sea correr o Strava.
+
 ## Criterios narrativos
 - Poner en relación las métricas objetivas con la experiencia subjetiva de cada entrenamiento.
 - Hacer visible aquello que los datos habituales de Strava no explican: sensaciones, contexto, motivación y estado de ánimo.
@@ -10,9 +13,9 @@
 - Dar importancia al tiempo, la constancia y la evolución del proceso.
 
 ## Criterios de datos
-- Trabajar con datos reales y personales recopilados para el proyecto.
+- Usar exclusivamente los registros reales de Xènia para representar sus entrenamientos, tanto en los prototipos como en la web final.
 - Mantener la trazabilidad entre cada representación y el dato original.
-- No inventar, alterar ni presentar estimaciones como mediciones reales.
+- Si falta una cifra, un comentario o una sensación, dejar ese dato sin registrar. Cada sensación atribuida a una salida debe estar respaldada por lo que Xènia haya contado sobre ella.
 - Contextualizar las métricas para evitar interpretaciones engañosas.
 - Tratar los comentarios personales como una capa complementaria de información, no como un adorno.
 
