@@ -71,3 +71,7 @@ Xènia eligió la versión con el archivo emocional y el muro de testigos. Se ad
 ## 23 de noviembre de 2026 — Cotejo con la tabla de estadísticas
 
 El PDF de estadísticas contiene 46 registros. Se recuperaron las notas por celdas y se corrigió la comparación de junio y septiembre. La web muestra las 45 actividades incluidas en la investigación. El CSV conserva también la actividad del 16 de septiembre. Los emojis dibujados en el PDF se transcribieron a Unicode a partir de su aspecto.
+
+## 23 de noviembre de 2026 — Memoria, audiencia y archivo de datos
+
+Se incorporó el CSV de 46 registros y se revisaron el README, el contexto y los criterios a partir de la memoria de Figma y del prototipo actual. Quedan documentados el público, la interpretación personal de la mirada ajena y las interacciones disponibles. La selección de la web sigue excluyendo el 16 de septiembre.
