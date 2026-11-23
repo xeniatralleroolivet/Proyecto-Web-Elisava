@@ -14,6 +14,7 @@ Aplicar las instrucciones del proyecto únicamente cuando Xènia esté hablando 
 
 ## Criterios de datos
 - Usar exclusivamente los registros reales de Xènia para representar sus entrenamientos, tanto en los prototipos como en la web final.
+- Conservar y mostrar íntegra toda la información de cada registro de entrenamiento, sin resumir, recortar, reformular ni corregir. Reproducir literalmente cada nota, por larga que sea, con sus palabras, emojis, repeticiones, erratas, mayúsculas, signos de puntuación, espacios y saltos de línea originales.
 - Mantener la trazabilidad entre cada representación y el dato original.
 - Si falta una cifra, un comentario o una sensación, dejar ese dato sin registrar. Cada sensación atribuida a una salida debe estar respaldada por lo que Xènia haya contado sobre ella.
 - Contextualizar las métricas para evitar interpretaciones engañosas.
